@@ -18,6 +18,49 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style type="text/css">
+    .conversation{
+        margin-top:15px;
+    }
+
+    .conversation .message{
+        display:flex;
+    }
+
+    .conversation .right{
+        justify-content:flex-end;
+    }
+
+    .conversation .message div{
+        padding:8px;
+        border:1px solid black;
+        border-radius:5px;
+        margin:0 20px 10px 20px;
+        
+    }
+
+    .conversation form{
+        display: flex;
+        justify-content: flex-end;
+        border-top:1px solid black;
+        padding:5px 15px;
+        margin-top:10px;
+    }
+
+    .conversation form input{
+        margin:10px;
+        width:300px;
+    }
+
+    .conversation form button[type=submit]{
+        height:30px;
+        display:flex;
+        align-self:center;
+        padding:2px 10px 2px 10px;
+    }
+    </style>
+
 </head>
 <body>
     <div id="app">
